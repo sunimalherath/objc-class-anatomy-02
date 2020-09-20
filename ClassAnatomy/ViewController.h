@@ -9,6 +9,9 @@
 
 @interface ViewController : UIViewController
 
+// Publich property
+@property (nonatomic, strong) NSString *name; // compiler automatically add setter called 'setName' to this property.
+@property (nonatomic, strong) NSString *test; // compiler automatically add setter called 'setTest' to this property.
 
 @end
 
